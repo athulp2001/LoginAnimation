@@ -1,0 +1,268 @@
+body{
+    background-color: bisque;
+}
+.sec{
+    width: 600px;
+  height: 360px;
+  background-color: rgb(11, 141, 20);
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    border: solid;
+    border-width: 3px;
+    border-radius: 50px;
+    
+   
+}
+.appdiv {
+    position: relative;
+    transition: left 1s ease;
+    background-color: rgb(11, 141, 20);
+    color: white;
+    font-family: arial;
+    width: 300px;
+    height: 360px;
+    margin-left: -600px;
+    
+    border-radius: 46px;
+}
+
+@keyframes moveRight {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 300px;
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        right: -300px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.appdiv1{
+    position: relative;
+    transition: left 1s ease;
+    background-color: aqua;
+    
+    width: 300px;
+    height: 360px;
+    margin-left: 0px;
+
+}
+.logindiv{
+    background-color: pink;
+    width: 300px;
+    height: 360px;
+   
+    border-radius: 50px;
+}
+.headdiv{
+    display: flex;
+    margin-left: 15%;
+}
+.headdiv img{
+    width: 70px;
+    height: 60px;
+    margin-left: -20px;
+    
+}
+.headdiv h1{
+    font:  sans-serif;
+    
+
+}
+.whatNew{
+    width: 80%;
+    margin-left: 5%;
+}
+/* loginsection */
+.logindiv h1{
+    text-align: center;
+    font-family: arial;
+    
+
+}
+.label1{
+    margin-left: 43%;
+ 
+
+}
+.label2{
+    margin-left: 39%;
+   
+
+}
+.inpmail{
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+   border: none;
+    border-radius: 5px;
+
+}
+.imppass{
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.loginbtn{
+    border: solid;
+    border-radius: 25px;
+    margin-top: 10px;
+    height: 36px;
+    width: 150px;
+    margin-left: 25%;
+    background-color: rgb(17, 124, 211);
+    color: white;
+
+    
+}
+.dontP{
+    margin-left: 15%;
+}
+.reg{
+    margin-top: 30px;
+color: rgb(28, 244, 0);
+border: none;
+background-color: rgba(181, 7, 36, 0.153);
+
+   
+    border-radius: 50px;
+}
+
+
+.logindiv{
+    background-color: rgba(181, 7, 36, 0.721);
+    width: 300px;
+    height: 360px;
+    color: aliceblue;
+    
+    border-radius: 47px;
+}
+.headdiv{
+    display: flex;
+    margin-left: 15%;
+}
+.headdiv img{
+    width: 70px;
+    height: 60px;
+    
+}
+.headdiv h1{
+    font-family: arial;
+
+}
+.whatNew{
+    width: 80%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* reg section */
+.regdiv{
+    background-color: rgb(195, 70, 91);
+    width: 300px;
+    color: white;
+   
+    border-radius: 47px;
+    
+}
+.login{
+ 
+    color: rgb(28, 244, 0);
+    border: none;
+    background-color: rgb(195, 70, 91);
+}
+.regdiv h1{
+    text-align: center;
+    font-family: arial;
+    
+
+}
+.label1{
+    margin-left: 38%;
+ 
+
+}
+.label4{
+    margin-left: 42%;
+ 
+
+}
+.label2{
+    margin-left: 39%;
+   
+
+}
+.label3{
+    margin-left: 30%;
+   
+
+}
+.inpname{
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+
+}
+.inpmail{
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+
+}
+.imppass{
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.confpass{
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+
+}
+.RegButton{
+    border: solid;
+    border-radius: 25px;
+    margin-top: 10px;
+    height: 36px;
+    width: 150px;
+    margin-left: 25%;
+    background-color: rgb(17, 124, 211);
+    color: white;
+    
+}
+.dontP{
+    margin-left: 15%;
+}
+.log{
+color: blue;
+border: none;
+background-color: pink;
+}
